@@ -1,13 +1,4 @@
-<script lang="ts">
-	import Header from '$lib/components/Header.svelte';
-</script>
-
-<div class="min-h-screen flex flex-col">
-	<div class="p-2">
-		<Header />
-	</div>
-
-	<main class="flex-grow container mx-auto px-4 py-8">
-		<slot />
-	</main>
+<div class="p-2 pr-4 pl-4 bg-gruvbox-bg2 flex-1">
+	hehe
 </div>
+

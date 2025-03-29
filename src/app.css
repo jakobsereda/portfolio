@@ -1,2 +1,44 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+@theme {
+	--font-display: "JetBrains Mono", "sans-serif";
+
+	--color-gruvbox-bg0: #282828;
+	--color-gruvbox-bg0_h: #1d2021;
+	--color-gruvbox-bg0_s: #32302f;
+	--color-gruvbox-bg1: #3c3836;
+	--color-gruvbox-bg2: #504945;
+	--color-gruvbox-bg3: #665c54;
+	--color-gruvbox-bg4: #7c6f64;
+
+	--color-gruvbox-gray0: #928374;
+	--color-gruvbox-gray1: #a89984;
+
+	--color-gruvbox-fg0: #fbf1c7;
+	--color-gruvbox-fg1: #ebdbb2;
+	--color-gruvbox-fg2: #d5c4a1;
+	--color-gruvbox-fg3: #bdae93;
+	--color-gruvbox-fg4: #a89984;
+
+	--color-gruvbox-red0: #cc241d;
+	--color-gruvbox-red1: #fb4934;
+
+	--color-gruvbox-orange0: #d65d0e;
+	--color-gruvbox-orange1: #fe8019;
+
+	--color-gruvbox-yellow0: #d79921;
+	--color-gruvbox-yellow1: #fabd2f;
+
+	--color-gruvbox-green0: #98971a;
+	--color-gruvbox-green1: #b8bb26;
+
+	--color-gruvbox-aqua0: #689d6a;
+	--color-gruvbox-aqua1: #8ec07c;
+
+	--color-gruvbox-blue0: #458588;
+	--color-gruvbox-blue1: #83a598;
+
+	--color-gruvbox-purple0: #b16286;
+	--color-gruvbox-purple1: #d3869b;
+}
