@@ -4,13 +4,14 @@
 	const items = [
 		{ route: '/',         label: 'Home'     },
 		{ route: '/projects', label: 'Projects' },
+		{ route: '/blog',     label: 'Blog'     },
 		{ route: '/music',    label: 'Music'    },
 	];
 </script>
 
-<div class="p-2 pr-4 pl-4 bg-gruvbox-bg2 flex flex-row justify-around gap-2">
-	<span class="w-1/2 font-semibold text-gruvbox-fg0">
-		Jakob's <span class="text-gruvbox-green1">Portfolio</span>
+<div class="p-2 pr-4 pl-4 flex flex-row justify-around gap-2">
+	<span class="w-1/2 font-semibold text-3xl text-gruvbox-fg0">
+		Jakob's <span class="text-gruvbox-green1">Website</span>
 	</span>
 	<span>
 	</span>

@@ -5,8 +5,8 @@
 	let { children } = $props();
 </script>
 
-<div class="font-display p-8 min-h-screen flex flex-col gap-4">
-	<div class="border-2 border-gruvbox-fg4 border-solid"> 
+<div class="font-display mr-auto ml-auto min-h-screen max-w-3xl flex flex-col">
+	<div class="p-4"> 
 		<Header />
 	</div>
 
