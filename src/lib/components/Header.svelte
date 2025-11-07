@@ -9,17 +9,27 @@
 	];
 </script>
 
-<div class="p-2 pr-4 pl-4 flex flex-row justify-around gap-2">
-	<span class="w-1/2 font-semibold text-3xl text-gruvbox-fg0">
-		Jakob's <span class="text-gruvbox-green1">Website</span>
-	</span>
-	<span>
-	</span>
-	<div class="w-1/2 flex gap-8 justify-end">
-	{#each items as item (item.route)}
-		<a href={item.route} class="font-semibold underline {page.url.pathname === item.route ? 'text-gruvbox-green1' : 'text-gruvbox-fg0'}">
-			{item.label}
-		</a>
-	{/each}
+<div class="flex flex-col">
+	<div class="flex flex-row justify-around">
+		<span class="w-1/2 font-semibold text-gruvbox-fg0">
+			Jakob's Website
+		</span>
+		<div class="w-1/2 flex gap-8 justify-end">
+		{#each items as item (item.route)}
+			<a href={item.route} class="font-semibold underline {page.url.pathname === item.route ? 'text-gruvbox-red1' : 'text-gruvbox-fg0'}">
+				{item.label}
+			</a>
+		{/each}
+		</div>
 	</div>
+	<span class="font-semibold text-gruvbox-fg0">
+		
+	</span>
 </div>
+
+<style>
+	img {
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+</style>
