@@ -11,7 +11,7 @@
 
 <div class="flex flex-col">
 	<div class="flex flex-row justify-between items-end">
-		<span class="font-semibold text-4xl text-gruvbox-fg0">
+		<span class="font-semibold text-3xl text-gruvbox-fg0">
 			Jakob's <span class="text-gruvbox-green1">Website</span>
 		</span>
 		<div class="flex gap-8 justify-end">
