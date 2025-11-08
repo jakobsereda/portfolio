@@ -1,3 +1,18 @@
-<div class="font-semibold text-gruvbox-fg0">
-    Copyright © Jakob Sereda 2025
+<div class="flex flex-row justify-between text-sm text-gruvbox-bg3">
+    <a href="https://github.com/jakobsereda/portfolio">
+        Source Code
+    </a>
+    <span>
+        Copyright © Jakob Sereda 2025
+    </span>
 </div>
+
+<style>
+	a {
+		transition: transform 0.2s ease;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+</style>
