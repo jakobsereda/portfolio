@@ -11,18 +11,18 @@
 
 <div class="flex flex-col">
 	<div class="flex flex-row justify-between items-end">
-		<span class="font-semibold text-3xl text-gruvbox-fg0">
-			Jakob's <span class="text-gruvbox-green1">Website</span>
+		<span class="font-semibold text-3xl text-gruvbox-bg0 dark:text-gruvbox-fg0">
+			Jakob's <span class="text-gruvbox-blue0 dark:text-gruvbox-green1">Website</span>
 		</span>
 		<div class="flex gap-8 justify-end">
 		{#each items as item (item.route)}
-			<a href={item.route} class="font-semibold {page.url.pathname === item.route ? 'text-gruvbox-fg0' : 'text-gruvbox-bg3'}">
+			<a href={item.route} class="font-semibold {page.url.pathname === item.route ? 'text-gruvbox-bg0 dark:text-gruvbox-fg0' : 'text-gruvbox-fg4 dark:text-gruvbox-bg4'}">
 				{item.label}
 			</a>
 		{/each}
 		</div>
 	</div>
-	<hr class="mt-2 border-dashed text-gruvbox-bg3" />
+	<hr class="mt-2 border-dashed text-gruvbox-fg4 dark:text-gruvbox-bg4" />
 </div>
 
 <style>
@@ -31,6 +31,6 @@
 	}
 
 	a:hover {
-		transform: translateY(-2px);
+		text-decoration: underline;
 	}
 </style>

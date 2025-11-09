@@ -1,4 +1,4 @@
-<div class="flex flex-row justify-between text-sm text-gruvbox-bg3">
+<div class="flex flex-row justify-between text-sm text-gruvbox-fg4 dark:text-gruvbox-bg4">
     <a href="https://github.com/jakobsereda/portfolio">
         Source Code
     </a>
