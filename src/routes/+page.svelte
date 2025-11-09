@@ -1,4 +1,4 @@
-<div class="flex flex-col text-justify gap-4 text-gruvbox-fg0">
+<div class="flex flex-col gap-4 text-justify text-gruvbox-fg0 text-sm">
 	<div class="flex flex-row gap-4">
 		<img src="./jakegreen.png" alt="jakegreen" class="h-100 w-auto" />
 		<div class="flex flex-col text-justify gap-4">
@@ -6,24 +6,34 @@
 				Hi, I'm Jakob!
 			</p>
 			<p>
-				I'm a third-year undergraduate student at the <a href="https://www.ubc.ca/" class="underline">University of British Columbia</a>, majoring in Computer Science.
+				I'm a third-year undergraduate student at the <a href="https://www.ubc.ca/" class="text-gruvbox-green1">University of British Columbia</a> in Vancouver, majoring in computer science.
 			</p>
 			<p>
-				I'm also currently interning at <a href="https://www.intel.com/" class="underline">Intel</a> as a System Simulation Engineer, where I work on transaction-level modelling for SoCs.
+				I'm currently interning at <a href="https://www.intel.com/" class="text-gruvbox-green1">Intel</a> as a system simulation engineer, where I work on transaction-level modelling for SoCs.
 			</p>
 			<p>
-				Previously, I worked at <a href="https://www.credivera.com/" class="underline">Credivera</a> building the future of digital identity,
-				and at UBC as a teaching assistant for CPSC 210.
+				I'm also a member of the software team at <a href="https://www.ubcformulaelectric.com/" class="text-gruvbox-green1">UBC Formula Electric</a>, developing a Yocto-based
+				custom Linux distribution for our in-car dashboard, and other cool embedded Linux projects.
 			</p>
 			<p>
-				I also like blah blah blah blah blah blah blah blah blah blah blah blah
+				Previously, I worked at <a href="https://www.credivera.com/" class="text-gruvbox-green1">Credivera</a> where I developed secure features for their digital identity platform.
+			</p>
+			<p>
+				I'm also a musician, gamer, and hockey fan!
 			</p>
 		</div>
 	</div>
 	<p>
 		foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar
 	</p>
-	<p>
-		links here?
-	</p>
 </div>
+
+<style>
+	a {
+		transition: transform 0.2s ease;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+</style>

@@ -12,11 +12,11 @@
 		<Header />
 	</div>
 
-	<div>
+	<main class="flex-1">
 		{@render children()}
-	</div>
+	</main>
 
-	<div class="pt-4 pb-4">
+	<footer class="pt-4 pb-4">
 		<Footer />
-	</div>
+	</footer>
 </div>
