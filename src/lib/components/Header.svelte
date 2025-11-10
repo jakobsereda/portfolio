@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { page } from "$app/state";
+	import { page } from '$app/state';
+	import DarkModeToggle from './DarkModeToggle.svelte';
 
 	const items = [
 		{ route: '/',         label: 'Home'     },
@@ -20,6 +21,7 @@
 				{item.label}
 			</a>
 		{/each}
+			<DarkModeToggle />
 		</div>
 	</div>
 	<hr class="mt-2 border-dashed text-gruvbox-fg4 dark:text-gruvbox-bg4" />
