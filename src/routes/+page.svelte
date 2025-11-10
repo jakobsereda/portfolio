@@ -2,7 +2,7 @@
 	<div class="flex flex-row gap-4">
 		<img src="./jakegreen.png" alt="jakegreen" class="h-100 w-auto hidden dark:block" />
 		<img src="./jakeblue.png" alt="jakblue" class="h-100 w-auto block dark:hidden" />
-		<div class="flex flex-col text-justify gap-4">
+		<div class="flex flex-col gap-4">
 			<p>
 				Hi, I'm Jakob!
 			</p>
@@ -17,14 +17,18 @@
 				custom Linux distribution for our in-car dashboard, and other cool embedded Linux projects.
 			</p>
 			<p>
-				Previously, I worked at <a href="https://www.credivera.com/" class="text-gruvbix-blue0 dark:text-gruvbox-green1">Credivera</a> where I developed secure features for their digital identity platform.
+				Previously, I worked at <a href="https://www.credivera.com/" class="text-gruvbox-blue0 dark:text-gruvbox-green1">Credivera</a> where I developed secure features for their digital identity platform.
 			</p>
 			<p>
 				I'm also a musician, gamer, and hockey fan!
 			</p>
 		</div>
 	</div>
-</div>
+	<div class="flex flex-col border border-dashed text-gruvbox-fg4 box-border p-4">
+		<p class="text-gruvbox-fg0">
+			I'm currently looking 
+		</p>
+	</div>
 
 <style>
 	a {
