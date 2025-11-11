@@ -24,7 +24,7 @@
 			<DarkModeToggle />
 		</div>
 	</div>
-	<hr class="mt-2 border-dashed text-gruvbox-fg4 dark:text-gruvbox-bg4" />
+	<hr class="mt-2 border-dashed border-gruvbox-fg4 dark:border-gruvbox-bg4" />
 </div>
 
 <style>
