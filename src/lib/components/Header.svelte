@@ -4,7 +4,7 @@
 
 	const items = [
 		{ route: '/',         label: 'Home'     },
-//		{ route: '/projects', label: 'Projects' },
+		{ route: '/projects', label: 'Projects' },
 //		{ route: '/blog',     label: 'Blog'     },
 //		{ route: '/music',    label: 'Music'    },
 	];
