@@ -20,9 +20,9 @@
 </script>
 
 <button on:click={toggle_dark_mode} aria-label="toggle-dark-mode" class="cursor-pointer transition hover:scale-105">
-{#if is_dark}
-    <img src="/sun.png" alt="sun" class="h-[1em] w-[1em]" />
-{:else}
-    <img src="/moon.png" alt="moon" class="h-[1em] w-[1em]" />
-{/if}
+	{#if is_dark}
+    	<img src="/sun.png" alt="sun" class="h-[1em] w-[1em]" />
+	{:else}
+    	<img src="/moon.png" alt="moon" class="h-[1em] w-[1em]" />
+	{/if}
 </button>
